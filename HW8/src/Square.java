@@ -3,7 +3,7 @@ public class Square extends Rectangle {
     }
 
     public Square(double side){
-
+        this.setWidth(side);
     }
 
     public Square(String color, boolean filled, double side) {
@@ -30,9 +30,6 @@ public class Square extends Rectangle {
         super.setWidth(width);
     }
 
-    public void setSide(double width){
-
-    }
 
     @Override
     public String toString() {
